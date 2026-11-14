@@ -1,0 +1,10 @@
+{
+  "name": "qki-public-pnl-ledger",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "node --test test/*.test.mjs"
+  },
+  "devDependencies": { "jsdom": "26.1.0" }
+}

@@ -1,0 +1,21 @@
+[Unit]
+Description=Reconcile QKI ledger and publish public snapshot to GitHub
+After=network-online.target
+Wants=network-online.target
+[Service]
+Type=oneshot
+User=qkiarb
+Group=qkiarb
+WorkingDirectory=/opt/qki-arbitrage
+ExecStart=/opt/qki-node/bin/node /opt/qki-arbitrage/cloud/collect-pnl.mjs
+ExecStart=/opt/qki-node/bin/node /opt/qki-arbitrage/cloud/publish-github.mjs
+TimeoutStartSec=420
+UMask=0077
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectHome=true
+ProtectSystem=strict
+ReadWritePaths=/var/lib/qki-arbitrage /var/lib/qki-ledger-github
+Nice=15
+CPUQuota=25%
+MemoryMax=192M
