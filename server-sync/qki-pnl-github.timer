@@ -1,9 +1,0 @@
-[Unit]
-Description=Publish QKI ledger about every five minutes
-[Timer]
-OnBootSec=2min
-OnUnitInactiveSec=5min
-Persistent=true
-Unit=qki-pnl-github.service
-[Install]
-WantedBy=timers.target
