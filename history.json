@@ -1,7 +1,9 @@
 {
   "version": 3,
+  "syncMode": "automatic",
+  "syncStatus": "ok",
   "source": "server-history-and-canonical-chain-receipts",
-  "asOf": "2026-11-14T09:07:54.340Z",
+  "asOf": "2026-11-14T09:47:41.695Z",
   "timezone": "Asia/Shanghai",
   "accountingStatus": "native-currency-reconciled",
   "coverage": "Robot local history only; incremental sync; QKI/WQKI and USDT remain separate",
@@ -2796,7 +2798,5 @@
       "outputAmount": "168.924615",
       "outputAsset": "USDT"
     }
-  ],
-  "syncMode": "manual",
-  "syncStatus": "github-setup-pending"
+  ]
 }
