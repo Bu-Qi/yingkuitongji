@@ -3,7 +3,7 @@
   "syncMode": "automatic",
   "syncStatus": "ok",
   "source": "server-history-and-canonical-chain-receipts",
-  "asOf": "2026-11-14T14:30:13.922Z",
+  "asOf": "2026-11-14T14:36:17.048Z",
   "timezone": "Asia/Shanghai",
   "accountingStatus": "native-currency-reconciled",
   "coverage": "Robot local history only; incremental sync; QKI/WQKI and USDT remain separate",
@@ -3050,6 +3050,55 @@
       ],
       "inputAmount": "185.094115",
       "outputAmount": "186.527186",
+      "outputAsset": "USDT"
+    },
+    {
+      "hash": "0xac43bcdcbd20452e7893982283b7b04a0ce504bbc62a46bdccae6e5662c20210",
+      "kind": "swap",
+      "status": "success",
+      "gasQKI": "0.1590625",
+      "at": "2026-11-14T14:30:42.000Z",
+      "reconciled": true,
+      "localAt": "2026-11-14T14:30:42.369Z",
+      "blockNumber": 38243342,
+      "blockHash": "0x374d9271007024c74f515d0ba2b3701fcf2857e6fd9b83b8bc5e1a03463a3436",
+      "grossQKI": "0.652024256936591118",
+      "grossUSDT": "0",
+      "reconciliation": "canonical-receipt-and-token-transfers",
+      "baseSymbol": "QKI",
+      "path": [
+        "0x835F6dF988B6f51c9477D49e96aDBbc644ba97a2",
+        "0xDF0e293CC3c7bA051763FF6b026DA0853D446E38",
+        "0x3616AB424CD95dD16a30689Eaaa062d48d1705Fb",
+        "0xD7B7e7ddCAf501CeC5946bbe8c05c4A468162523",
+        "0x835F6dF988B6f51c9477D49e96aDBbc644ba97a2"
+      ],
+      "inputAmount": "7.11404137737311524",
+      "outputAmount": "7.766065634309706358",
+      "outputAsset": "WQKI"
+    },
+    {
+      "hash": "0xd74a98f23f42dda2531be86af3c9fab64c4aa3d2c83d1969b61acd63f0e45bdb",
+      "kind": "swap",
+      "status": "success",
+      "gasQKI": "0.129428",
+      "at": "2026-11-14T14:30:47.000Z",
+      "reconciled": true,
+      "localAt": "2026-11-14T14:30:47.270Z",
+      "blockNumber": 38243343,
+      "blockHash": "0xb52d14b03030a219702dc18cb2072378c06c39d25288303003919ac47c8b3205",
+      "grossQKI": "0",
+      "grossUSDT": "0.623087",
+      "reconciliation": "canonical-receipt-and-token-transfers",
+      "baseSymbol": "USDT",
+      "path": [
+        "0xDF0e293CC3c7bA051763FF6b026DA0853D446E38",
+        "0x36E7dD7Bc7527cDE9B281BD096a544Fb022BF3fC",
+        "0xD7B7e7ddCAf501CeC5946bbe8c05c4A468162523",
+        "0xDF0e293CC3c7bA051763FF6b026DA0853D446E38"
+      ],
+      "inputAmount": "2.261372",
+      "outputAmount": "2.884459",
       "outputAsset": "USDT"
     }
   ]
