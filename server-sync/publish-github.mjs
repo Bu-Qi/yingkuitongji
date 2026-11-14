@@ -15,7 +15,7 @@ if(data.syncMode!=='automatic'||data.syncStatus!=='ok'||!Array.isArray(data.tran
 if(Math.abs(Date.now()-Date.parse(data.asOf))>10*60*1000)throw Error('Collector snapshot is stale');
 const allowedRoot=['version','syncMode','syncStatus','source','asOf','timezone','accountingStatus','coverage','transactions'];
 if(Object.keys(data).some(k=>!allowedRoot.includes(k)))throw Error('Unexpected snapshot fields');
-const allowedRow=['hash','kind','status','gasQKI','at','reconciled','localAt','blockNumber','blockHash','grossQKI','grossUSDT','reconciliation','baseSymbol','path','inputAmount','outputAmount','outputAsset','reconciliationError'];
+const allowedRow=['hash','kind','status','gasQKI','at','reconciled','localAt','blockNumber','blockHash','grossQKI','grossUSDT','reconciliation','baseSymbol','path','inputAmount','outputAmount','outputAsset','reconciliationError','gasPriceWei','inputRaw','minimumOutputRaw'];
 if(data.transactions.some(r=>Object.keys(r).some(k=>!allowedRow.includes(k))))throw Error('Unexpected transaction fields');
 fs.mkdirSync(repo,{recursive:true,mode:0o700});
 if(!fs.existsSync(path.join(repo,'.git'))){git(['init']);git(['checkout','-b','ledger-data']);git(['remote','add','origin',remote]);}
