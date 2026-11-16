@@ -3,7 +3,7 @@
   "syncMode": "automatic",
   "syncStatus": "ok",
   "source": "server-history-and-canonical-chain-receipts",
-  "asOf": "2026-11-16T13:09:13.589Z",
+  "asOf": "2026-11-16T13:15:14.638Z",
   "timezone": "Asia/Shanghai",
   "accountingStatus": "native-currency-reconciled",
   "coverage": "Robot local history only; incremental sync; QKI/WQKI and USDT remain separate",
@@ -4290,6 +4290,54 @@
       ],
       "inputAmount": "3.256425359578969673",
       "outputAmount": "3.519901409071650193",
+      "outputAsset": "WQKI"
+    },
+    {
+      "hash": "0x5420afebc3d86c0e541e3110a8b04cf230de76af7bcb54345b504ce3c189ca36",
+      "kind": "swap",
+      "status": "success",
+      "gasQKI": "0.1236795",
+      "at": "2026-11-16T13:10:41.000Z",
+      "reconciled": true,
+      "localAt": "2026-11-16T13:10:41.371Z",
+      "blockNumber": 38252199,
+      "blockHash": "0x5a7e6ccae69babf2e2ec579db5a67ae915daa412e64507deb311cac08b9b2b09",
+      "grossQKI": "0.332738011528552819",
+      "grossUSDT": "0",
+      "reconciliation": "canonical-receipt-and-token-transfers",
+      "baseSymbol": "WQKI",
+      "path": [
+        "0x835F6dF988B6f51c9477D49e96aDBbc644ba97a2",
+        "0xE8377eCb0F32f0C16025d5cF360D6C9e2EA66Adf",
+        "0xE0F2C68c96F8F0b8C8867D657a57902fFef05C04",
+        "0x835F6dF988B6f51c9477D49e96aDBbc644ba97a2"
+      ],
+      "inputAmount": "11.133181863253484227",
+      "outputAmount": "11.465919874782037046",
+      "outputAsset": "WQKI"
+    },
+    {
+      "hash": "0xb0808a03bf905c6af91e3824a5de4ec36b75fcd489caffbb511ad6139d4b384c",
+      "kind": "swap",
+      "status": "success",
+      "gasQKI": "0.16511616",
+      "at": "2026-11-16T13:13:47.000Z",
+      "reconciled": true,
+      "localAt": "2026-11-16T13:13:47.175Z",
+      "blockNumber": 38252216,
+      "blockHash": "0x1fe42bd5310fc879ada6db1c6bf8f85acf0f1e86523e298909d5fc1648e1139b",
+      "grossQKI": "0.463953573356105482",
+      "grossUSDT": "0",
+      "reconciliation": "canonical-receipt-and-token-transfers",
+      "baseSymbol": "WQKI",
+      "path": [
+        "0x835F6dF988B6f51c9477D49e96aDBbc644ba97a2",
+        "0xDF0e293CC3c7bA051763FF6b026DA0853D446E38",
+        "0xE8377eCb0F32f0C16025d5cF360D6C9e2EA66Adf",
+        "0x835F6dF988B6f51c9477D49e96aDBbc644ba97a2"
+      ],
+      "inputAmount": "21.936522903728764378",
+      "outputAmount": "22.40047647708486986",
       "outputAsset": "WQKI"
     }
   ]
