@@ -3,7 +3,7 @@
   "syncMode": "automatic",
   "syncStatus": "ok",
   "source": "server-history-and-canonical-chain-receipts",
-  "asOf": "2026-11-17T03:10:20.568Z",
+  "asOf": "2026-11-17T03:16:21.231Z",
   "timezone": "Asia/Shanghai",
   "accountingStatus": "native-currency-reconciled",
   "coverage": "Robot local history only; incremental sync; QKI/WQKI and USDT remain separate",
@@ -4459,6 +4459,54 @@
       "inputAmount": "11.437131",
       "outputAmount": "12.599388",
       "outputAsset": "USDT"
+    },
+    {
+      "hash": "0x38e01368d82828107710565d5d3413aff854d36f7a26ef19f90b7dc30a2c067f",
+      "kind": "swap",
+      "status": "success",
+      "gasQKI": "0.19262628",
+      "at": "2026-11-17T03:13:21.000Z",
+      "reconciled": true,
+      "localAt": "2026-11-17T03:13:21.172Z",
+      "blockNumber": 38254374,
+      "blockHash": "0xb6f26064dda75fed443a13e83d567b940eaaa31b08d2d4918875c9704c17ac51",
+      "grossQKI": "0.68251416763151159",
+      "grossUSDT": "0",
+      "reconciliation": "canonical-receipt-and-token-transfers",
+      "baseSymbol": "WQKI",
+      "path": [
+        "0x835F6dF988B6f51c9477D49e96aDBbc644ba97a2",
+        "0xDF0e293CC3c7bA051763FF6b026DA0853D446E38",
+        "0xE8377eCb0F32f0C16025d5cF360D6C9e2EA66Adf",
+        "0x835F6dF988B6f51c9477D49e96aDBbc644ba97a2"
+      ],
+      "inputAmount": "26.186080944404601135",
+      "outputAmount": "26.868595112036112725",
+      "outputAsset": "WQKI"
+    },
+    {
+      "hash": "0x2f8e352c9a838278c26e7912e82ef10d0b0a2355b006eabeb4669b08a9a39499",
+      "kind": "swap",
+      "status": "success",
+      "gasQKI": "0.121471",
+      "at": "2026-11-17T03:13:26.000Z",
+      "reconciled": true,
+      "localAt": "2026-11-17T03:13:26.234Z",
+      "blockNumber": 38254375,
+      "blockHash": "0xf806519d7068d3e88b66b426f83dcd05a4af5fcfa51f280abe0b2e86a42132de",
+      "grossQKI": "0.340780588539899091",
+      "grossUSDT": "0",
+      "reconciliation": "canonical-receipt-and-token-transfers",
+      "baseSymbol": "WQKI",
+      "path": [
+        "0x835F6dF988B6f51c9477D49e96aDBbc644ba97a2",
+        "0xE8377eCb0F32f0C16025d5cF360D6C9e2EA66Adf",
+        "0x276ef112EB67BFe49815057Cc878a1A01e9194Cb",
+        "0x835F6dF988B6f51c9477D49e96aDBbc644ba97a2"
+      ],
+      "inputAmount": "5.817732834466562871",
+      "outputAmount": "6.158513423006461962",
+      "outputAsset": "WQKI"
     }
   ]
 }
