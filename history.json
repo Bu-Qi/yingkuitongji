@@ -3,7 +3,7 @@
   "syncMode": "automatic",
   "syncStatus": "ok",
   "source": "server-history-and-canonical-chain-receipts",
-  "asOf": "2026-11-19T12:25:11.628Z",
+  "asOf": "2026-11-19T12:30:30.296Z",
   "timezone": "Asia/Shanghai",
   "accountingStatus": "native-currency-reconciled",
   "coverage": "Robot local history only; incremental sync; QKI/WQKI and USDT remain separate",
