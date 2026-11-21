@@ -3,7 +3,7 @@
   "syncMode": "automatic",
   "syncStatus": "ok",
   "source": "server-history-and-canonical-chain-receipts",
-  "asOf": "2026-11-21T22:24:53.896Z",
+  "asOf": "2026-11-21T22:30:11.854Z",
   "timezone": "Asia/Shanghai",
   "accountingStatus": "native-currency-reconciled",
   "coverage": "Robot local history only; incremental sync; QKI/WQKI and USDT remain separate",
@@ -7300,6 +7300,54 @@
       ],
       "inputAmount": "35.243757",
       "outputAmount": "35.66376",
+      "outputAsset": "USDT"
+    },
+    {
+      "hash": "0x07c2a990367ab0253ea442a69563941f5f2de2cef470e9ae01ecdf7d27f5cda7",
+      "kind": "swap",
+      "status": "success",
+      "gasQKI": "0.098744",
+      "at": "2026-11-21T22:25:58.000Z",
+      "reconciled": true,
+      "localAt": "2026-11-21T22:25:58.514Z",
+      "blockNumber": 38274224,
+      "blockHash": "0xb7819a64de18f9e8f463c696f4ea4175ce01bee001ba237a6826bbbb0ec38439",
+      "grossQKI": "0",
+      "grossUSDT": "0.397538",
+      "reconciliation": "canonical-receipt-and-token-transfers",
+      "baseSymbol": "USDT",
+      "path": [
+        "0xDF0e293CC3c7bA051763FF6b026DA0853D446E38",
+        "0x835F6dF988B6f51c9477D49e96aDBbc644ba97a2",
+        "0x5Cad8a1340E624Be90adfd787F6F3248DdF17321",
+        "0xDF0e293CC3c7bA051763FF6b026DA0853D446E38"
+      ],
+      "inputAmount": "3.9638",
+      "outputAmount": "4.361338",
+      "outputAsset": "USDT"
+    },
+    {
+      "hash": "0x14f469c29ac3852c019f6a9335dc01baf35fad42a3000a188062d7e068c248a9",
+      "kind": "swap",
+      "status": "success",
+      "gasQKI": "0.099898",
+      "at": "2026-11-21T22:26:04.000Z",
+      "reconciled": true,
+      "localAt": "2026-11-21T22:26:04.936Z",
+      "blockNumber": 38274225,
+      "blockHash": "0xc3510a91addd2413aea680d18c659e6e402a61ea6818bdeae7c16817a7dd76b9",
+      "grossQKI": "0",
+      "grossUSDT": "0.397752",
+      "reconciliation": "canonical-receipt-and-token-transfers",
+      "baseSymbol": "USDT",
+      "path": [
+        "0xDF0e293CC3c7bA051763FF6b026DA0853D446E38",
+        "0x835F6dF988B6f51c9477D49e96aDBbc644ba97a2",
+        "0xaDfc13326CCAC637f37722fCA23b35c37A522c56",
+        "0xDF0e293CC3c7bA051763FF6b026DA0853D446E38"
+      ],
+      "inputAmount": "10.097063",
+      "outputAmount": "10.494815",
       "outputAsset": "USDT"
     }
   ]
