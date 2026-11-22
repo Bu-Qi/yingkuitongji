@@ -3,7 +3,7 @@
   "syncMode": "automatic",
   "syncStatus": "ok",
   "source": "server-history-and-canonical-chain-receipts",
-  "asOf": "2026-11-22T13:57:40.387Z",
+  "asOf": "2026-11-22T14:03:01.745Z",
   "timezone": "Asia/Shanghai",
   "accountingStatus": "native-currency-reconciled",
   "coverage": "Robot local history only; incremental sync; QKI/WQKI and USDT remain separate",
@@ -8025,6 +8025,30 @@
       ],
       "inputAmount": "7.027886",
       "outputAmount": "7.602836",
+      "outputAsset": "USDT"
+    },
+    {
+      "hash": "0xef540ec369b060baa1a0da582cfeceac65901b51a5a631f159eac3bfd3c0ff0a",
+      "kind": "swap",
+      "status": "success",
+      "gasQKI": "0.1028356",
+      "at": "2026-11-22T14:00:32.000Z",
+      "reconciled": true,
+      "localAt": "2026-11-22T14:00:32.539Z",
+      "blockNumber": 38277799,
+      "blockHash": "0x9fb3f249cac6152c1ebe7ae4f775deba64f4f1ed7cb985977d7677160201753a",
+      "grossQKI": "0",
+      "grossUSDT": "0.611188",
+      "reconciliation": "canonical-receipt-and-token-transfers",
+      "baseSymbol": "USDT",
+      "path": [
+        "0xDF0e293CC3c7bA051763FF6b026DA0853D446E38",
+        "0x835F6dF988B6f51c9477D49e96aDBbc644ba97a2",
+        "0xE8377eCb0F32f0C16025d5cF360D6C9e2EA66Adf",
+        "0xDF0e293CC3c7bA051763FF6b026DA0853D446E38"
+      ],
+      "inputAmount": "43.773235",
+      "outputAmount": "44.384423",
       "outputAsset": "USDT"
     }
   ]
