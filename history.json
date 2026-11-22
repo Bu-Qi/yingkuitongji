@@ -3,9 +3,9 @@
   "syncMode": "automatic",
   "syncStatus": "ok",
   "source": "server-history-and-canonical-chain-receipts",
-  "asOf": "2026-11-22T05:02:17.962Z",
+  "asOf": "2026-11-22T05:07:39.568Z",
   "timezone": "Asia/Shanghai",
-  "accountingStatus": "partially-reconciled",
+  "accountingStatus": "native-currency-reconciled",
   "coverage": "Robot local history only; incremental sync; QKI/WQKI and USDT remain separate",
   "transactions": [
     {
@@ -7475,18 +7475,48 @@
       "kind": "swap",
       "status": "success",
       "gasQKI": "0.0999576",
-      "at": "2026-11-22T05:01:52.644Z",
-      "reconciled": false,
-      "reconciliationError": "Missing or mismatched receipt"
+      "at": "2026-11-22T05:01:52.000Z",
+      "reconciled": true,
+      "localAt": "2026-11-22T05:01:52.644Z",
+      "blockNumber": 38275678,
+      "blockHash": "0x6c01c16daa7f93493eae53bb62f4284f50c697e5ea906207e5f14668bbb091e2",
+      "grossQKI": "0",
+      "grossUSDT": "0.522152",
+      "reconciliation": "canonical-receipt-and-token-transfers",
+      "baseSymbol": "USDT",
+      "path": [
+        "0xDF0e293CC3c7bA051763FF6b026DA0853D446E38",
+        "0x835F6dF988B6f51c9477D49e96aDBbc644ba97a2",
+        "0x22fBF74b4269A00e27816fa9E5AEb43fde0be529",
+        "0xDF0e293CC3c7bA051763FF6b026DA0853D446E38"
+      ],
+      "inputAmount": "16.006596",
+      "outputAmount": "16.528748",
+      "outputAsset": "USDT"
     },
     {
       "hash": "0xc9f247893e6b4a44db84ae6b30f8e9acd5d0a9a4ea773612114bf1a6e32ce3ea",
       "kind": "swap",
       "status": "success",
       "gasQKI": "0.1028356",
-      "at": "2026-11-22T05:01:57.997Z",
-      "reconciled": false,
-      "reconciliationError": "Missing or mismatched receipt"
+      "at": "2026-11-22T05:01:57.000Z",
+      "reconciled": true,
+      "localAt": "2026-11-22T05:01:57.997Z",
+      "blockNumber": 38275679,
+      "blockHash": "0x5f84a5e6146e75e7a64f41ea76a0d14930772231d7c5c773ea80f8995f260231",
+      "grossQKI": "0",
+      "grossUSDT": "0.40511",
+      "reconciliation": "canonical-receipt-and-token-transfers",
+      "baseSymbol": "USDT",
+      "path": [
+        "0xDF0e293CC3c7bA051763FF6b026DA0853D446E38",
+        "0x835F6dF988B6f51c9477D49e96aDBbc644ba97a2",
+        "0xE8377eCb0F32f0C16025d5cF360D6C9e2EA66Adf",
+        "0xDF0e293CC3c7bA051763FF6b026DA0853D446E38"
+      ],
+      "inputAmount": "34.575993",
+      "outputAmount": "34.981103",
+      "outputAsset": "USDT"
     }
   ]
 }
