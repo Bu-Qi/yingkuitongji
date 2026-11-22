@@ -3,9 +3,9 @@
   "syncMode": "automatic",
   "syncStatus": "ok",
   "source": "server-history-and-canonical-chain-receipts",
-  "asOf": "2026-11-22T04:56:59.385Z",
+  "asOf": "2026-11-22T05:02:17.962Z",
   "timezone": "Asia/Shanghai",
-  "accountingStatus": "native-currency-reconciled",
+  "accountingStatus": "partially-reconciled",
   "coverage": "Robot local history only; incremental sync; QKI/WQKI and USDT remain separate",
   "transactions": [
     {
@@ -7469,6 +7469,24 @@
       "inputAmount": "40.257905",
       "outputAmount": "40.808057",
       "outputAsset": "USDT"
+    },
+    {
+      "hash": "0xe0aeb6825a6a4486b933407d463d24725578e279d9ec312262afad6597d115d2",
+      "kind": "swap",
+      "status": "success",
+      "gasQKI": "0.0999576",
+      "at": "2026-11-22T05:01:52.644Z",
+      "reconciled": false,
+      "reconciliationError": "Missing or mismatched receipt"
+    },
+    {
+      "hash": "0xc9f247893e6b4a44db84ae6b30f8e9acd5d0a9a4ea773612114bf1a6e32ce3ea",
+      "kind": "swap",
+      "status": "success",
+      "gasQKI": "0.1028356",
+      "at": "2026-11-22T05:01:57.997Z",
+      "reconciled": false,
+      "reconciliationError": "Missing or mismatched receipt"
     }
   ]
 }
