@@ -3,7 +3,7 @@
   "syncMode": "automatic",
   "syncStatus": "ok",
   "source": "server-history-and-canonical-chain-receipts",
-  "asOf": "2026-11-22T07:14:55.691Z",
+  "asOf": "2026-11-22T07:20:18.840Z",
   "timezone": "Asia/Shanghai",
   "accountingStatus": "native-currency-reconciled",
   "coverage": "Robot local history only; incremental sync; QKI/WQKI and USDT remain separate",
@@ -7590,6 +7590,44 @@
       "inputAmount": "19.407334",
       "outputAmount": "19.984276",
       "outputAsset": "USDT"
+    },
+    {
+      "hash": "0x09b6b77f9b37bbfcfd76100c24616cfa63ef057cd20528c90a37cb1960ddbb4b",
+      "kind": "swap",
+      "status": "success",
+      "gasQKI": "0.1042372",
+      "at": "2026-11-22T07:15:24.000Z",
+      "reconciled": true,
+      "localAt": "2026-11-22T07:15:24.972Z",
+      "blockNumber": 38276246,
+      "blockHash": "0x77be86ebcca7814543ae186c9b5f4a38974e32917b50211b119d123f53b8190a",
+      "grossQKI": "0.249384564588407286",
+      "grossUSDT": "0",
+      "reconciliation": "canonical-receipt-and-token-transfers",
+      "baseSymbol": "QKI",
+      "path": [
+        "0x835F6dF988B6f51c9477D49e96aDBbc644ba97a2",
+        "0xE8377eCb0F32f0C16025d5cF360D6C9e2EA66Adf",
+        "0xDF0e293CC3c7bA051763FF6b026DA0853D446E38",
+        "0x835F6dF988B6f51c9477D49e96aDBbc644ba97a2"
+      ],
+      "inputAmount": "16.372615839438767628",
+      "outputAmount": "16.622000404027174914",
+      "outputAsset": "WQKI"
+    },
+    {
+      "hash": "0x8ecf0dcaec3cc1487e2d82d6232bc56946e773d77166538957ce1b42a4e9c031",
+      "kind": "withdraw",
+      "status": "success",
+      "gasQKI": "0.0149056",
+      "at": "2026-11-22T07:15:29.000Z",
+      "reconciled": true,
+      "localAt": "2026-11-22T07:15:29.963Z",
+      "blockNumber": 38276247,
+      "blockHash": "0x84374090b214f38ee436c350bddfcc01362129a6970da5828a9bef4897856441",
+      "grossQKI": "0",
+      "grossUSDT": "0",
+      "reconciliation": "canonical-receipt"
     }
   ]
 }
