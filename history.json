@@ -3,9 +3,9 @@
   "syncMode": "automatic",
   "syncStatus": "ok",
   "source": "server-history-and-canonical-chain-receipts",
-  "asOf": "2026-11-23T06:18:10.495Z",
+  "asOf": "2026-11-23T06:23:42.649Z",
   "timezone": "Asia/Shanghai",
-  "accountingStatus": "native-currency-reconciled",
+  "accountingStatus": "partially-reconciled",
   "coverage": "Robot local history only; incremental sync; QKI/WQKI and USDT remain separate",
   "transactions": [
     {
@@ -8425,6 +8425,15 @@
       "inputAmount": "16.554486",
       "outputAmount": "16.976395",
       "outputAsset": "USDT"
+    },
+    {
+      "hash": "0x36c249f48d94b81465ecae5fdde71c17b330161226b4361e7c7117f9cb97ae99",
+      "kind": "swap",
+      "status": "success",
+      "gasQKI": "0.1028356",
+      "at": "2026-11-23T06:20:59.767Z",
+      "reconciled": false,
+      "reconciliationError": "The operation was aborted due to timeout"
     }
   ]
 }
